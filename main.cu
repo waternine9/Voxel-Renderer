@@ -137,6 +137,9 @@ __global__ void getColAtLoc(int y, float* triangles, int* outputR, int* outputG,
 			}
 		}
 	}
+	/* -------------------------------
+		This is the reflection code. I commented it out because it looks bad.
+	------------------------------- */
 	/* if (totalDist < 1000)
 	{
 		totalDist = 1000;
